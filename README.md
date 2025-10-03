@@ -1,6 +1,6 @@
 # MongoDB Practice - Business Inspection Dataset
 
-A comprehensive MongoDB practice project using a business inspection dataset with 71 practical questions ranging from basic queries to advanced aggregation operations.
+A comprehensive MongoDB practice project using a business inspection dataset with 60 practical questions ranging from basic queries to advanced aggregation operations.
 
 ## 📋 Project Overview
 
@@ -9,7 +9,7 @@ This project provides hands-on MongoDB practice using real-world business inspec
 ## 📁 Project Structure
 
 ```
-├── Questions.md              # 71 MongoDB practice questions (Easy, Medium, Hard)
+├── Questions.md              # 60 MongoDB practice questions (Easy, Medium, Hard)
 ├── solutions_with_hints.md   # Detailed solutions with hints and explanations
 ├── Setup.ipynb              # MongoDB setup and data loading notebook
 ├── Solutions.ipynb          # Interactive solutions in Jupyter notebook format
@@ -55,7 +55,7 @@ This project provides hands-on MongoDB practice using real-world business inspec
 - Complex filtering
 - Text search operations
 
-### Hard Questions (51-71)
+### Hard Questions (51-60)
 - Advanced aggregation
 - Complex data transformations
 - Multi-stage pipelines
@@ -103,7 +103,7 @@ This project provides hands-on MongoDB practice using real-world business inspec
    - Learn grouping and statistical operations
    - Practice complex queries
 
-3. **Challenge yourself with Hard Questions (51-71)**
+3. **Challenge yourself with Hard Questions (51-60)**
    - Master advanced aggregation pipelines
    - Learn optimization techniques
    - Practice real-world scenarios

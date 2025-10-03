@@ -1,9 +1,4 @@
-Awesome idea — let’s tackle this step by step.  
-I’ll give you **hints** and **solutions** for the **first 10 MongoDB practice questions** based on your **business inspection dataset**.
-
----
-
-## 🟢 Easy Questions (1–10)
+## Easy Questions (1–10)
 
 ---
 
@@ -105,16 +100,6 @@ db.businesses.find({ sector: "Cigarette Retail Dealer - 127" })
 db.businesses.find({ certificate_number: 5381180 })
 ```
 
----
-
-Great — let’s continue with **questions 11–20** just like before — with **hints first** and then the **solutions**.
-
----
-
-## 🟢 Easy Questions (11–20)
-
----
-
 ### 1️⃣1️⃣ Retrieve the `id` and `date` for all businesses.  
 **Hint:** Use projection to include only `id` and `date`, and exclude `_id`.
 
@@ -215,18 +200,6 @@ db.businesses.find({ "address.zip": { $gte: 10000, $lte: 12000 } })
 ```javascript
 db.businesses.find({ "address.number": { $gt: 9000 } })
 ```
-
----
-
-✅ Done!  
-Would you like to move ahead to **questions 21–30** now?
-
-
-Awesome — let’s tackle **questions 21–30** now, with **hints first**, then **solutions** — nice and clean like before.
-
----
-
-## 🟢 Easy Questions (21–30)
 
 ---
 
@@ -340,17 +313,6 @@ db.businesses.find({ sector: { $ne: "Tax Preparers - 891" } })
 ```javascript
 db.businesses.find().sort({ certificate_number: -1 })
 ```
-
----
-
-✅ Done with **1–30 Easy Questions**!  
-Would you like to jump into the **Medium 31–40 set** next?
-
-Great — let’s carefully do the **Medium Questions 31–40**, with **hints first**, followed by **solutions** for each. Here we go!
-
----
-
-## 🟡 Medium Questions (31–40)
 
 ---
 
@@ -471,19 +433,6 @@ db.businesses.aggregate([
   { $group: { _id: "$sector", count: { $sum: 1 } } }
 ])
 ```
-
----
-
-✅ Done with **31–40 Medium Questions**!  
-Would you like to continue with **41–50** now?
-
-
-Awesome — let’s move ahead with **Medium Questions 41–50** now, in the same clean format:  
-**hints first**, then **solutions**.  
-
----
-
-## 🟡 Medium Questions (41–50)
 
 ---
 
@@ -609,18 +558,7 @@ db.businesses.find({
 
 ---
 
-✅ That’s **41–50 completed** — hints and clean working queries.
-
-Would you like me to now continue with the **Hard Questions 51–60**?
-
-
-Great — let’s finish strong with **Hard Questions 51–60**!  
-As always: **Hint first, then Solution**.  
-
----
-
-## 🔴 Hard Questions (51–60)
-
+## Hard Questions (51–60)
 ---
 
 ### 5️⃣1️⃣ Group businesses by `address.city` and calculate the average `certificate_number` for each city.  
@@ -773,7 +711,3 @@ db.businesses.aggregate([
 ```
 
 ---
-
-✅ Done — that covers **Hard Questions 51–60** with helpful hints and clean, working MongoDB queries.
-
-Would you like me to bundle them all together in a single downloadable document too? 🚀
